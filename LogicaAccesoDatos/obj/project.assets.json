@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "LogicaNegocio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/LogicaNegocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LogicaNegocio.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "LogicaNegocio/1.0.0": {
+      "type": "project",
+      "path": "../LogicaNegocio/LogicaNegocio.csproj",
+      "msbuildProject": "../LogicaNegocio/LogicaNegocio.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "LogicaNegocio >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/martinacabrera/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/martinacabrera/Library/CloudStorage/GoogleDrive-viko.aguilar@gmail.com/My Drive/@ORT/2023 - ATI/RiderProjects/ObligatorioP3/LogicaNegocio/LogicaNegocio.csproj": {
+              "projectPath": "/Users/martinacabrera/Library/CloudStorage/GoogleDrive-viko.aguilar@gmail.com/My Drive/@ORT/2023 - ATI/RiderProjects/ObligatorioP3/LogicaNegocio/LogicaNegocio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

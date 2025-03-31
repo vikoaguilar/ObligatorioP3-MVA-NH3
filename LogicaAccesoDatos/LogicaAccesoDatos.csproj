@@ -8,7 +8,10 @@
 
     <ItemGroup>
       <Folder Include="ContextoEF\" />
-      <Folder Include="Repositorios\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\LogicaNegocio\LogicaNegocio.csproj" />
     </ItemGroup>
 
 </Project>

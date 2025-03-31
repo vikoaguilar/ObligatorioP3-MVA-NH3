@@ -7,8 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="CasosUso\" />
       <Folder Include="Mapeadores\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CasosUso\CasosUso.csproj" />
+      <ProjectReference Include="..\LogicaNegocio\LogicaNegocio.csproj" />
     </ItemGroup>
 
 </Project>

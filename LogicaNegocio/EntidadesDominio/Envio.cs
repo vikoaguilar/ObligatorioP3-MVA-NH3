@@ -8,5 +8,4 @@ public class Envio
     public Usuario Cliente { get; set; }
     public double Peso { get; set; }
     public Status Estado { get; set; }
-    public List<Seguimiento> Seguimientos { get; set; }
 }
